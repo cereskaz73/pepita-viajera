@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -33,7 +33,7 @@ body {
 }
 
 .titulo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 4rem;
     color: #333;
     font-weight: 600;
