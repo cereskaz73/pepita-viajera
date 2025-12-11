@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght=600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +33,7 @@ body {
 }
 
 .titulo {
+    font-family: 'Playfair Display', serif;
     font-size: 4rem;
     color: #333;
     font-weight: 600;
@@ -59,15 +62,15 @@ body {
     object-fit: contain;
 }
 
-/* Contenedor central (mapa) */
+/* Contenedor central (mapa) - reducido 10% */
 .contenedor-imagen.central {
-    width: 50%;
-    height: 100%;
+    width: 45%;
+    height: 90%;
 }
 
-/* Contenedores laterales (formato vertical tipo móvil) */
+/* Contenedores laterales - ampliados 40% */
 .contenedor-imagen.lateral {
-    width: 180px;
-    height: 320px;
+    width: 252px;
+    height: 448px;
     flex-shrink: 0;
 }
